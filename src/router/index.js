@@ -4,6 +4,7 @@ import HomePage from "@/pages/HomePage";
 import ContactPage from "@/pages/ContactPage";
 import AboutPage from "@/pages/AboutPage";
 import ProjectsPage from "@/pages/ProjectsPage";
+import DonatePage from "@/pages/DonatePage"
 
 const routes = [
   {
@@ -25,6 +26,10 @@ const routes = [
     path: "/projects",
     name: "ProjectsPage",
     component: ProjectsPage,
+  },{
+    path: "/donate",
+    name: "DonatePage",
+    component: DonatePage,
   }
 ];
 
