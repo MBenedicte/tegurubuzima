@@ -1,5 +1,5 @@
 <template>
-<div id="carouselExampleIndicators" class="slide carousel" data-bs-ride="carousel">
+<div id="carouselExampleIndicators" class="slide carousel m-10" data-bs-ride="carousel" >
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -7,30 +7,33 @@
     </div>
     <div class="carousel-inner">
        
-        <div class="carousel-item active">
-            <div class="overlay-image" :style="{'background-image': 'url(' + require('@/assets/images/mother.jpeg') + ')'}"> </div>
+        <div class="carousel-item active ">
+            <div class="overlay-image image1" :style="{'background-image': 'url(' + require('@/assets/images/image3.jpg') + ')'}"></div>
             <div class="container">
-                <h1>Example heading</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h1>Our vision</h1>
+                <p>Tegurubuzima visualize a society where the most vulnerable </p>
+                <p>people experience a healthy life and wealth for better development.</p>
                 <a href="/donate" class="btn btn-lg oral-bg">Donate</a>
             </div>
            
            
         </div>
         <div class="carousel-item ">
-            <div class="overlay-image" :style="{'background-image': 'url(' + require('@/assets/images/children.jpeg') + ')'}"> </div>
+            <div class="overlay-image image2" :style="{'background-image': 'url(' + require('@/assets/images/image2.jpg') + ')'}"> </div>
 
             <div class="container">
-                <h1>Example heading1</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h1>Our vision</h1>
+                <p>Tegurubuzima visualize a society where the most vulnerable </p>
+                <p>people experience a healthy life and wealth for better development.</p>
                 <a href="/donate" class="btn btn-lg oral-bg">Donate</a>
             </div>
         </div>
         <div class="carousel-item ">
-            <div class="overlay-image" :style="{'background-image': 'url(' + require('@/assets/images/dancing.jpeg') + ')'}"> </div>
+            <div class="overlay-image image3" :style="{'background-image': 'url(' + require('@/assets/images/image1.jpg') + ')'}"> </div>
             <div class="container">
-                <h1>Example heading2</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h1>Our vision</h1>
+                <p>Tegurubuzima visualize a society where the most vulnerable </p>
+                <p>people experience a healthy life and wealth for better development.</p>
                 <a href="/donate" class="btn btn-lg oral-bg">Donate</a>
             </div>
         </div>
@@ -70,10 +73,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .carousel{
-    font-size: 25px;
+    font-size: 25px; 
 }
 .carousel-item{
-    height: 32rem;
+    height: 47rem;
     background: #000;
     color: white;
     position: relative;
@@ -94,9 +97,13 @@ export default {
     background-position: center;
     background-size:cover;
     opacity: 0.5;
+    
 }
+
 .oral-bg{
     background: coral;
 }
+
+
 
 </style>

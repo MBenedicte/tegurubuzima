@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav-bar/>
-    <carousel-component/>
+    <carousel-component />
     <text-container :paragraphs="paragraphs"/>
     <footer-component/>
   
@@ -21,40 +21,27 @@ export default {
     return {
       paragraphs:[{
         id:1,
-        title: "Title1",
-        text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-            cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat 
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`
-      },{
-        id:2,
-        title: "Title2",
-        text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-            cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat 
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`
-      },{
-        id:3,
-        title: "Title3",
-        text:`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-            cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat 
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum`
-      }]
+        title: "Our history",
+        text:`Tegurubuzima Organization has started in the beginning of 2020 as an association of people
+living with disabilities in terms of advocating for their rights and self-development.
+As the time pass, the founder discovered other gaps in the health development toward other types
+of vulnerable person and projected the plans to expand the way of advocacy and implementing
+activities that should raise up the wide range of those people.
+The organization enlarged their activities toward advocating depressed people in order to prevent
+suicides cases that are increasing in the society as well as advocating for other mentally ill
+persons, preventing sexual violence and providing help to those ones who were violated, Helping
+and preventing malnutrition among children for the purpose of eliminating stunting in Rwanda.
+Today, the organization is implementing some activities and visualizes also carrying out more
+projects concerning vulnerable people for the better h ealth and self-development by referring to
+the sustainable development goals of Rwanda as well as World Health Organization.`
+      },]
     }
   },
   components:{
     NavBar,
     CarouselComponent,
     textContainer,
-    footerComponent,
-   
+    footerComponent,  
   }
 }
 </script>

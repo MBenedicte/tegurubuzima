@@ -5,41 +5,23 @@
       <div>
         <h1> Our mission</h1>
       <p class="p-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
-            cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat 
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+            To pursue health related issues of the most vulnerable people and promote their health
+throughout reducing malnutrition, advocating for mentally ill people and early detection of
+mental disease in the community, reducing the rate of sexual violence, advocate and help people
+living with disabilities for health development according to sustainable development goals.
       </p>
       </div>
-      <div>
+      <div >
         <h1> Our staff</h1>
-        <div class="row mb-3">
-      <div class="col-sm">
-      <div>
-        <img src="@/assets/images/GasoreSerge.jpeg" class="rounded-img" alt="Cinque Terre">
-      </div>
-       <div>John Doe</div>
-      <div>john.doe@email.com</div>
-      
-    </div>
-    <div class="col-sm">
-      <div>
-        <img src="@/assets/images/GasoreSerge.jpeg" class="rounded-img" alt="Cinque Terre">
-      </div>
-     <div>John Doe</div>
-      <div>john.doe@email.com</div>
-    </div>
-    <div class="col-sm">
-      <div>
-        <img src="@/assets/images/GasoreSerge.jpeg" class="rounded-img" alt="Cinque Terre">
-      </div>
-      <div>John Doe</div>
-      <div>john.doe@email.com</div>
-     
-    </div>
-  </div>
+          <div class="col-sm mt-2">
+            <div>
+              <img src="@/assets/images/person-icon.png" class="rounded-img" alt="Cinque Terre">
+            </div>
+            <div>HARINDINTWALI Honore</div>
+            <div>hhonore02@gmail.com</div>
+          </div>
+    
+   
       </div> 
     </div>
     <footer-component/>
