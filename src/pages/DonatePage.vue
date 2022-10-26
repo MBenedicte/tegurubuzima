@@ -5,17 +5,17 @@
         <div class="donate-container">
           <div class="content">
             <h2>Donate</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>For donation, you can use our accounts from different platforms</p>
             <div class="row">
               <div class="col-6">
-                <h4>Momo</h4>
-                <div> +736253723943</div>
-                <div>John Doe</div>
+                <h4>Mobile money</h4>
+                <div> +250782047544</div>
+                <div>HARINDINTWALI Honore</div>
               </div>
               <div class="col-6">
                <h4>Bank</h4>
-                <div> 7354736452773 - KCB</div>
-                <div>John Doe</div>
+                <div> 4490991592 - KCB</div>
+                <div>HARINDINTWALI Honore</div>
               </div>
             </div>
           </div>
