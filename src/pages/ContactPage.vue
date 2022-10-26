@@ -61,10 +61,10 @@ export default {
   data(){
 return{
   addresses:[
-    {title: 'Phone number', add:'+24536173673'},
-    {title: 'Email', add:'email@email.com' },
-    {title: 'Instagram', add:'instagram',},
-    {title: 'Address', add:'address 23113, stress avenue, house number',}
+    {title: 'Phone number', add:'+250782047544'},
+    {title: 'Email', add:'hhonore02@gmail.com' },
+    {title: 'Instagram', add:'-',},
+    {title: 'Address', add:'Kigali,Rwanda',}
     
     ]
 }

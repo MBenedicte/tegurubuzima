@@ -4,8 +4,8 @@
   <div class="row">
     <div class="col-sm-4 text-left p-2" >
         <h3>Contact us</h3>
-        <div class="p-1"><i class="bi bi-telephone"></i> <span>: phone number</span></div>
-        <div class="p-1"><i class="bi bi-envelope-paper"></i> <span>: email</span></div>
+        <div class="p-1"><i class="bi bi-telephone"></i> <span>: +250782047544 </span></div>
+        <div class="p-1"><i class="bi bi-envelope-paper"></i> <span>: hhonore02@gmail.com</span></div>
       
     </div>
     <div class="col-sm-4  p-2 border-lr">  
