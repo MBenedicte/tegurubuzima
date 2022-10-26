@@ -8,17 +8,17 @@
   </button>
   <div class="collapse navbar-collapse right-align" id="navbarNav">
     <ul class="navbar-nav ">
-      <li class="nav-item ">
-        <a class="nav-link" :class="isActive" href="/">Home</a>
+      <li class="nav-item " :click="checkLink()">
+        <a class="nav-link" :class="path === '/' ? 'active': ''" href="/" >Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
+      <li class="nav-item" :click="checkLink()">
+        <a class="nav-link" :class="path === '/about' ? 'active': ''" href="/about">About</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/projects">Projects</a>
+      <li class="nav-item" :click="checkLink()">
+        <a class="nav-link" :class="path === '/projects' ? 'active': ''" href="/projects">Projects</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/contactus">Contact Us</a>
+      <li class="nav-item" :click="checkLink()">
+        <a class="nav-link" :class="path === '/contactus' ? 'active': ''" href="/contactus">Contact Us</a>
       </li>
     </ul>
   </div>
@@ -31,10 +31,15 @@ export default {
   name: 'NavBar',
   data(){
     return {
-        isActive: ""
+        isActive: "",
+        path:''
     }
   },
   methods:{
+    checkLink:function(){
+        this.path = window.location.pathname;
+       return this.path = window.location.pathname
+    }
    
   }
 }
@@ -44,13 +49,13 @@ export default {
 <style scoped>
 .navContainer{
     padding: 1% ;
-    font-size: 20px;
+    font-size: 25px;
 }
 .active{
     color: coral !important
 }
 .right-align{
-    margin-left: 65%;
+    margin-left: 60%;
 }
 
 </style>
