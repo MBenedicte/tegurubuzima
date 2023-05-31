@@ -18,5 +18,13 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
+}
+p {
+  font-size: 20px;
+}
+#container{
+  max-width:70%;
+  margin: auto;
 }
 </style>

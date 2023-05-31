@@ -31,9 +31,7 @@ h1{
   margin: 1%;
   color: coral;
 }
-p{
-  margin-top: 20px;
-}
+
 
 
 </style>

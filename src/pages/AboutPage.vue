@@ -44,9 +44,6 @@ h1{
   margin: 1%;
   color: coral;
 }
-p{
-  font-size: 22px;
-}
 .rounded-img{
   border-radius: 10%;
   width: 200px;

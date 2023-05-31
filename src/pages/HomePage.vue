@@ -2,7 +2,7 @@
   <div>
     <nav-bar/>
     <carousel-component />
-    <text-container :paragraphs="paragraphs"/>
+    <text-container id="container" :paragraphs="paragraphs"/>
     <footer-component/>
   
   </div>

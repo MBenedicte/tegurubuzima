@@ -1,8 +1,8 @@
 <template>
   <div>
-    <nav-bar />
+    <nav-bar/>
 
-    <div class="container">
+    <div id="container">
       <div>
         <h1>Our projects</h1>
         <div class="p-2">
@@ -72,10 +72,9 @@ export default {
 </script>
 
 <style scoped>
-p {
-  font-size: 22px;
-}
+
 h1 {
   color: coral;
 }
+
 </style>
