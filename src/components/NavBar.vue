@@ -12,17 +12,17 @@
     <div id="drop-down bg-light" v-if="displayDropdown">  
       <ul>
         <li class="nav-item " :click="checkLink()">
-        <a class="nav-link" :class="path === '/' ? 'active': ''" href="/" >Home</a>
-      </li>
-      <li class="nav-item" :click="checkLink()">
-        <a class="nav-link" :class="path === '/about' ? 'active': ''" href="/about">About</a>
-      </li>
-      <li class="nav-item" :click="checkLink()">
-        <a class="nav-link" :class="path === '/projects' ? 'active': ''" href="/projects">Projects</a>
-      </li>
-      <li class="nav-item" :click="checkLink()">
-        <a class="nav-link" :class="path === '/contactus' ? 'active': ''" href="/contactus">Contact Us</a>
-      </li>
+          <a class="nav-link" :class="path === '/' ? 'active': ''" href="/" >Home</a>
+        </li>
+        <li class="nav-item" :click="checkLink()">
+          <a class="nav-link" :class="path === '/about' ? 'active': ''" href="/about">About</a>
+        </li>
+        <li class="nav-item" :click="checkLink()">
+          <a class="nav-link" :class="path === '/projects' ? 'active': ''" href="/projects">Projects</a>
+        </li>
+        <li class="nav-item" :click="checkLink()">
+          <a class="nav-link" :class="path === '/contactus' ? 'active': ''" href="/contactus">Contact Us</a>
+        </li>
       </ul>
     </div>
   </div>
